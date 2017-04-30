@@ -1,0 +1,13 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+	<script file="Luise.lua"/>
+	<Frame name="LuiseFrame" parent="UIParent" hidden="true">
+		<Scripts>
+			<OnLoad>
+				Luise_OnLoad()
+			</OnLoad>
+			<OnEvent>
+				Luise_OnEvent()
+			</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>
